@@ -18,11 +18,11 @@ function App() {
 					<h1 className='text-5xl font-bold'> Welcome </h1>
 					<div className='flex flex-col gap-5'>
 						<div className='flex flex-col text-2xl text-left gap-1'>
-							<span>Username</span>
+							<span className='text-lg'>Username</span>
 							<input type='text' className='ps-3 rounded-md p-1 border-2 border-gray-300 outline-none focus:border-cyan-400 focus:bg-slate-50'/>
 						</div>
 						<div className='flex flex-col text-2xl text-left gap-1'>
-							<span>Password</span>
+							<span className='text-lg'>Password</span>
 							<input type='password' className='ps-3 rounded-md p-1 border-2 border-gray-300 outline-none focus:border-cyan-400 focus:bg-slate-50'/>
 						</div>
 						<div className='flex items-center gap-2 -mt-4'>
@@ -30,7 +30,7 @@ function App() {
 							<span className='text-gray-400'>Remember Password</span>
 						</div>
 					</div>
-					<button className='w-full text-2xl rounded-md text-white bg-indigo-500 py-3 cursor-pointer hover:bg-indigo-600'>Login</button>
+					<button className='w-full text-xl rounded-md text-white bg-indigo-500 py-3 cursor-pointer hover:bg-indigo-600'>Login</button>
 					<span className='font-semibold text-gray-700'>
 						Don't have an account?
 						<a href='#' className='text-blue-400 hover:underline ms-2'>Register</a>
